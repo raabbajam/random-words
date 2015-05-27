@@ -21,5 +21,11 @@
     "text"
   ],
   "author": "Thomas Boutell",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.26",
+    "pick-random-stream": "^1.1.0",
+    "split": "^1.0.0",
+    "through2": "^0.6.5"
+  }
 }

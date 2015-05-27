@@ -29,3 +29,7 @@ Examples:
     console.log(randomWords({ exactly: 5, join: ' ' }))
     'army beautiful became if exactly'
 
+## Forked by raabbajam
+
+Changed using stream for big list.
+No more inforation right now.
