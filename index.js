@@ -31,7 +31,6 @@ function words(options) {
   function randStream(onpick) {
     var seen = 0;
     var target = randInt(options.length);
-    console.log(target);
     var stream = through.obj(function (data, enc, cb) {
       if (target === seen++) return cb(null, data);
       cb();
